@@ -18,6 +18,14 @@ public class BookDao {
     private static final String FIND_ALL_BOOKS_QUERY = "SELECT * FROM book;";
     private static final String READ_BOOK_QUERY = "SELECT * from book where id = ?;";
     private static final String UPDATE_BOOK_QUERY = "UPDATE	book SET title = ? , author = ?, isbn = ? WHERE	id = ?;";
+//    private static final String CREATE_USER_QUERY =
+//            "INSERT INTO book(username, email, password) VALUES (?, ?, ?)";
+//
+//    private static final String CREATE_USER_QUERYf =
+//            "INSERT INTO users(username, email, password) VALUES (?, ?, ?)";
+    //gyubjhn
+    //1234567
+
 
     /**
      * Get book by id
